@@ -1,0 +1,22 @@
+.top__nav {
+	height: 95px;
+	padding: 0 40px 0 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.u__name {
+	color: var(--P, var(--brand-950, #030813));
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+@media only screen and (max-width: 1024px) {
+	.top__nav {
+		padding: 0 20px 0 20px;
+	}
+}
